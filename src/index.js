@@ -7,7 +7,7 @@ import tseslint from 'typescript-eslint';
 const config = [
   js.configs.recommended,
   sort.configs['flat/recommended'],
-  ...tseslint.configs.recommended,
+  tseslint.configs.recommended,
   {
     plugins: {
       '@stylistic': stylistic
