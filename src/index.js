@@ -5,13 +5,11 @@ import sort from 'eslint-plugin-sort';
 import tseslint from 'typescript-eslint';
 
 export default defineConfig([
-  js.configs.recommended,
   sort.configs['flat/recommended'],
   tseslint.configs.recommended,
   {
-    plugins: {
-      '@stylistic': stylistic
-    },
+    plugins: { '@stylistic': stylistic, js },
+    extends: ['js/recommended'],
     rules: {
       '@stylistic/arrow-parens': ['error', 'as-needed'],
       '@stylistic/arrow-spacing': ['error', { before: true, after: true }],
