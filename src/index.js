@@ -63,7 +63,7 @@ const config = [
         { blankLine: 'always', prev: '*', next: 'return' }
       ],
       '@stylistic/quote-props': ['error', 'as-needed'],
-      '@stylistic/quotes': ['error', 'single', { allowTemplateLiterals: true }],
+      '@stylistic/quotes': ['error', 'single', { allowTemplateLiterals: 'always' }],
       '@stylistic/semi': ['error', 'always'],
       '@stylistic/semi-spacing': 'error',
       '@stylistic/semi-style': ['error', 'last'],
