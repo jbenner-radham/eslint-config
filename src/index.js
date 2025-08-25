@@ -77,7 +77,11 @@ export default defineConfig([
       '@stylistic/type-generic-spacing': 'error',
       '@stylistic/type-named-tuple-spacing': 'error',
       '@stylistic/wrap-iife': ['error', 'inside'],
-      '@typescript-eslint/no-unused-vars': ['error', { caughtErrorsIgnorePattern: '^_$' }],
+      '@typescript-eslint/no-unused-vars': ['error', {
+        argsIgnorePattern: '^_',
+        caughtErrorsIgnorePattern: '^_',
+        destructuredArrayIgnorePattern: '^_'
+      }],
       'sort/destructuring-properties': 'off',
       'sort/exports': [
         'error',
