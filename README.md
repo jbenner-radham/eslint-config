@@ -14,13 +14,15 @@ Usage
 -----
 
 ```javascript
-import { defineConfig } from 'eslint/config';
 import radham from '@radham/eslint-config';
+import { defineConfig } from 'eslint/config';
+import globals from 'globals';
 
 export default defineConfig([
   {
     files: ['**/*.ts'],
-    extends: [radham]
+    extends: [radham],
+    languageOptions: { globals: globals.node /* or `globals.browser` */ }
   }
 ]);
 ```
