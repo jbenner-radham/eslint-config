@@ -1,13 +1,13 @@
 import js from '@eslint/js';
-import sort from 'eslint-plugin-sort';
 import stylistic from '@stylistic/eslint-plugin';
-import tsEslint from 'typescript-eslint';
+import sort from 'eslint-plugin-sort';
+import tseslint from 'typescript-eslint';
 
 /** @type {import('eslint').Linter.Config[]} */
 const config = [
   js.configs.recommended,
   sort.configs['flat/recommended'],
-  ...tsEslint.configs.recommended,
+  ...tseslint.configs.recommended,
   {
     plugins: {
       '@stylistic': stylistic
