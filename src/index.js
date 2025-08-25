@@ -101,6 +101,7 @@ const config = [
       'sort/object-properties': 'off',
       camelcase: 'error',
       eqeqeq: ['error', 'smart'],
+      'no-unused-vars': 'off',
       'no-var': 'error',
       'prefer-const': ['error', { destructuring: 'any', ignoreReadBeforeAssign: false }]
     }
