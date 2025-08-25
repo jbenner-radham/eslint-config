@@ -1,10 +1,10 @@
 import js from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
+import { defineConfig } from 'eslint/config';
 import sort from 'eslint-plugin-sort';
 import tseslint from 'typescript-eslint';
 
-/** @type {import('eslint').Linter.Config[]} */
-const config = [
+export default defineConfig([
   js.configs.recommended,
   sort.configs['flat/recommended'],
   tseslint.configs.recommended,
@@ -106,6 +106,4 @@ const config = [
       'prefer-const': ['error', { destructuring: 'any', ignoreReadBeforeAssign: false }]
     }
   }
-];
-
-export default config;
+]);
