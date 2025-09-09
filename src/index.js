@@ -46,7 +46,7 @@ export default defineConfig([
       '@stylistic/object-curly-spacing': ['error', 'always'],
       '@stylistic/object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
       '@stylistic/operator-linebreak': ['error', 'after', {
-        overrides: { '?': 'before', ':': 'before' }
+        overrides: { '?': 'before', ':': 'before', '|': 'before' }
       }],
       '@stylistic/padded-blocks': ['error', 'never'],
       '@stylistic/padding-line-between-statements': [
