@@ -98,7 +98,8 @@ export default defineConfig([
       eqeqeq: ['error', 'smart'],
       'no-unused-vars': 'off',
       'no-var': 'error',
-      'prefer-const': ['error', { destructuring: 'any', ignoreReadBeforeAssign: false }]
+      'prefer-const': ['error', { destructuring: 'any', ignoreReadBeforeAssign: false }],
+      'preserve-caught-error': 'error'
     }
   }
 ]);
