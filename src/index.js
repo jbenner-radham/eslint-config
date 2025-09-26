@@ -84,7 +84,7 @@ export default defineConfig([
         caughtErrorsIgnorePattern: '^_',
         destructuredArrayIgnorePattern: '^_'
       }],
-      'no-only-tests/no-only-tests': 'error',
+      'no-only-tests/no-only-tests': ['error', { fix: true }],
       'sort/destructuring-properties': 'off',
       'sort/exports': [
         'error',
