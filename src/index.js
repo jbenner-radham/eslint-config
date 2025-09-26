@@ -3,12 +3,14 @@ import stylistic from '@stylistic/eslint-plugin';
 import { defineConfig } from 'eslint/config';
 import sort from 'eslint-plugin-sort';
 import tseslint from 'typescript-eslint';
+import { fixupPluginRules } from '@eslint/compat';
+import noOnlyTests from 'eslint-plugin-no-only-tests';
 
 export default defineConfig([
   sort.configs['flat/recommended'],
   tseslint.configs.recommended,
   {
-    plugins: { '@stylistic': stylistic, js },
+    plugins: { '@stylistic': stylistic, 'no-only-tests': fixupPluginRules(noOnlyTests), js },
     extends: ['js/recommended'],
     rules: {
       '@stylistic/arrow-parens': ['error', 'as-needed'],
@@ -82,6 +84,7 @@ export default defineConfig([
         caughtErrorsIgnorePattern: '^_',
         destructuredArrayIgnorePattern: '^_'
       }],
+      'no-only-tests/no-only-tests': 'error',
       'sort/destructuring-properties': 'off',
       'sort/exports': [
         'error',
