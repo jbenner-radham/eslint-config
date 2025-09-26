@@ -7,7 +7,7 @@ Install
 -------
 
 ```shell
-npm install --save-dev @radham/eslint-config @eslint/js @stylistic/eslint-plugin eslint-plugin-no-only-tests eslint-plugin-sort typescript-eslint
+npm install --save-dev @radham/eslint-config
 ```
 
 Usage
