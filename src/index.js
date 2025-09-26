@@ -1,10 +1,10 @@
+import { fixupPluginRules } from '@eslint/compat';
 import js from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
 import { defineConfig } from 'eslint/config';
+import noOnlyTests from 'eslint-plugin-no-only-tests';
 import sort from 'eslint-plugin-sort';
 import tseslint from 'typescript-eslint';
-import { fixupPluginRules } from '@eslint/compat';
-import noOnlyTests from 'eslint-plugin-no-only-tests';
 
 export default defineConfig([
   sort.configs['flat/recommended'],
