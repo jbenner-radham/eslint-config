@@ -1,6 +1,6 @@
 {
   "name": "@radham/eslint-config",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "A shareable ESLint config with Stylistic.",
   "keywords": [
     "eslint",
