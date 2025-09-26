@@ -30,4 +30,4 @@ export default defineConfig([
 License
 -------
 
-The BSD 3-Clause license. See the [license file](LICENSE) for details.
+The BSD 3-Clause License. See the [license file](LICENSE) for details.
