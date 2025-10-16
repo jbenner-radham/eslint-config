@@ -56,7 +56,9 @@ export default defineConfig([
         { blankLine: 'always', prev: '*', next: 'return' }
       ],
       '@stylistic/quote-props': ['error', 'as-needed'],
-      '@stylistic/quotes': ['error', 'single', { allowTemplateLiterals: 'always' }],
+      '@stylistic/quotes': ['error', 'single', {
+        allowTemplateLiterals: 'avoidEscape', avoidEscape: true
+      }],
       '@stylistic/semi': ['error', 'always'],
       '@stylistic/semi-spacing': 'error',
       '@stylistic/semi-style': ['error', 'last'],

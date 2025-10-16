@@ -6,12 +6,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-[Unreleased]
-------------
+[7.0.0] - 2025-10-16
+--------------------
 
 ### Changed
 
 - Expanded on the "Usage" section of the readme.
+- The `@stylistic/quotes` option `avoidEscape` from the default value `false` to `true`.
+- The `@stylistic/quotes` option `allowTemplateLiterals` from `always` to `avoidEscape`.
 
 [6.0.0] - 2025-09-26
 --------------------
@@ -81,7 +83,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release.
 
-[Unreleased]: https://github.com/jbenner-radham/eslint-config/compare/v6.0.0...HEAD
+[7.0.0]: https://github.com/jbenner-radham/eslint-config/compare/v6.0.0...v7.0.0
 [6.0.0]: https://github.com/jbenner-radham/eslint-config/compare/v5.0.0...v6.0.0
 [5.0.0]: https://github.com/jbenner-radham/eslint-config/compare/v4.0.1...v5.0.0
 [4.0.1]: https://github.com/jbenner-radham/eslint-config/compare/v4.0.0...v4.0.1
