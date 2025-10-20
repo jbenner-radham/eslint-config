@@ -6,7 +6,7 @@ import globals from 'globals';
 
 export default defineConfig([
   {
-    files: ['**/*.{js,mjs,cjs}'],
+    files: ['**/*.js'],
     extends: [radham],
     languageOptions: { globals: globals.node }
   },
