@@ -14,6 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The options on the `@stylistic/lines-around-comment` rule. Specifically added
   `allowArrayStart`, `allowEnumStart`, `allowInterfaceStart`,
   `allowObjectStart`, and `allowTypeStart` all set to `true`.
+- Upgraded the `@eslint/js` dependency from `9.36.0` to `9.38.0`.
+- Upgraded the `@stylistic/eslint-plugin` dependency from `5.4.0` to `5.5.0`.
+- Upgraded the `typescript-eslint` dependency from `8.44.1` to `8.46.2`.
 
 [7.0.0] - 2025-10-16
 --------------------
