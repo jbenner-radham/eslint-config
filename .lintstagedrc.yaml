@@ -1,2 +1,2 @@
-'*.js': eslint --fix
+'*.{js,json}': eslint --fix
 package.json: sort-package-json
