@@ -27,7 +27,16 @@ export default defineConfig([
       '@stylistic/linebreak-style': ['error', 'unix'],
       '@stylistic/lines-around-comment': [
         'error',
-        { beforeBlockComment: true, beforeLineComment: true, allowBlockStart: true }
+        {
+          allowArrayStart: true,
+          allowBlockStart: true,
+          allowEnumStart: true,
+          allowInterfaceStart: true,
+          allowObjectStart: true,
+          allowTypeStart: true,
+          beforeBlockComment: true,
+          beforeLineComment: true
+        }
       ],
       '@stylistic/lines-between-class-members': ['error', 'always'],
       '@stylistic/max-len': ['error', { code: 100, comments: 100, ignoreUrls: true }],

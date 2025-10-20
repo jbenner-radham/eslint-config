@@ -6,6 +6,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+[8.0.0] - 2025-10-20
+--------------------
+
+### Changed
+
+- The options on the `@stylistic/lines-around-comment` rule. Specifically added
+  `allowArrayStart`, `allowEnumStart`, `allowInterfaceStart`,
+  `allowObjectStart`, and `allowTypeStart` all set to `true`.
+
 [7.0.0] - 2025-10-16
 --------------------
 
@@ -83,6 +92,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release.
 
+[8.0.0]: https://github.com/jbenner-radham/eslint-config/compare/v7.0.0...v8.0.0
 [7.0.0]: https://github.com/jbenner-radham/eslint-config/compare/v6.0.0...v7.0.0
 [6.0.0]: https://github.com/jbenner-radham/eslint-config/compare/v5.0.0...v6.0.0
 [5.0.0]: https://github.com/jbenner-radham/eslint-config/compare/v4.0.1...v5.0.0
