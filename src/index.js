@@ -117,3 +117,5 @@ export default defineConfig([
     }
   }
 ]);
+
+export { default as radhamGfm } from './gfm.js';
