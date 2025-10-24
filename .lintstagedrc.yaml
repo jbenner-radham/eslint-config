@@ -1,2 +1,0 @@
-'*.{js,json,md}': eslint --fix
-package.json: sort-package-json
