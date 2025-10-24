@@ -11,8 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- A `radhamGfm` config for [GitHub Flavored Markdown](https://github.github.com/gfm/)
-  documents.
+- A `radhamGfm` config for [GitHub Flavored Markdown](https://github.github.com/gfm/) documents.
 
 [8.0.0] - 2025-10-20
 --------------------
@@ -47,7 +46,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- The [no-only-tests](https://github.com/levibuzolic/eslint-plugin-no-only-tests) plugin and corresponding rule.
+- The [no-only-tests](https://github.com/levibuzolic/eslint-plugin-no-only-tests) plugin and
+  corresponding rule.
 
 ### Changed
 
@@ -79,11 +79,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Set the `@typescript-eslint/no-unused-vars` options `argsIgnorePattern` and `destructuredArrayIgnorePattern` to `'^_'`.
+- Set the `@typescript-eslint/no-unused-vars` options `argsIgnorePattern` and
+  `destructuredArrayIgnorePattern` to `'^_'`.
 
 ### Changed
 
-- Update the `@typescript-eslint/no-unused-vars` option `caughtErrorsIgnorePattern` to `'^_'` from `'^_$'`.
+- Update the `@typescript-eslint/no-unused-vars` option `caughtErrorsIgnorePattern` to `'^_'` from
+  `'^_$'`.
 
 [1.0.1] - 2025-08-25
 --------------------
