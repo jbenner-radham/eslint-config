@@ -29,6 +29,7 @@
     "@stylistic/eslint-plugin": "^5.5.0",
     "eslint-plugin-no-only-tests": "^3.3.0",
     "eslint-plugin-sort": "^4.0.0",
+    "eslint-plugin-unicorn": "^62.0.0",
     "typescript-eslint": "^8.46.2"
   },
   "devDependencies": {

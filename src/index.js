@@ -4,13 +4,19 @@ import stylistic from '@stylistic/eslint-plugin';
 import { defineConfig } from 'eslint/config';
 import noOnlyTests from 'eslint-plugin-no-only-tests';
 import sort from 'eslint-plugin-sort';
+import unicorn from 'eslint-plugin-unicorn';
 import tseslint from 'typescript-eslint';
 
 export default defineConfig([
   sort.configs['flat/recommended'],
   tseslint.configs.recommended,
+  unicorn.configs.unopinionated,
   {
-    plugins: { '@stylistic': stylistic, 'no-only-tests': fixupPluginRules(noOnlyTests), js },
+    plugins: {
+      '@stylistic': stylistic,
+      'no-only-tests': fixupPluginRules(noOnlyTests),
+      js
+    },
     extends: ['js/recommended'],
     rules: {
       '@stylistic/arrow-parens': ['error', 'as-needed'],
@@ -108,8 +114,27 @@ export default defineConfig([
       ],
       'sort/import-members': ['error', { caseSensitive: false, natural: true }],
       'sort/object-properties': 'off',
+      'unicorn/better-regex': ['error', { sortCharacterClasses: true }],
+      'unicorn/catch-error-name': 'error',
+      'unicorn/consistent-destructuring': 'error',
+      'unicorn/consistent-empty-array-spread': 'error',
+      'unicorn/custom-error-definition': 'error',
+      'unicorn/empty-brace-spaces': 'error',
+      'unicorn/expiring-todo-comments': 'off',
+      'unicorn/filename-case': ['error', {
+        cases: { kebabCase: true, pascalCase: true }
+      }],
+      'unicorn/no-await-expression-member': 'error',
+      'unicorn/no-for-loop': 'error',
+      'unicorn/no-nested-ternary': 'error',
+      'unicorn/no-static-only-class': 'off',
+      'unicorn/no-useless-length-check': 'off',
+      'unicorn/prefer-set-has': 'off',
+      'unicorn/prefer-set-size': 'off',
+      'unicorn/prevent-abbreviations': 'error',
       camelcase: 'error',
       eqeqeq: ['error', 'smart'],
+      'no-nested-ternary': 'off',
       'no-unused-vars': 'off',
       'no-var': 'error',
       'prefer-const': ['error', { destructuring: 'any', ignoreReadBeforeAssign: false }],
