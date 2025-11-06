@@ -9,6 +9,14 @@
     "stylistic",
     "typescript"
   ],
+  "homepage": "https://github.com/jbenner-radham/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/jbenner-radham/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbenner-radham/eslint-config.git"
+  },
   "license": "BSD-3-Clause",
   "author": "James Benner <hello@jamesbenner.com> (https://www.jamesbenner.com/)",
   "type": "module",
