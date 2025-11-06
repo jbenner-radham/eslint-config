@@ -6,6 +6,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+Unreleased
+----------
+
+### Added
+
+- The `eslint-plugin-unicorn` package with the `unopinionated` ruleset and some additional custom
+  configuration.
+
+### Changed
+
+- Upgraded the `@eslint/compat` dependency from `1.4.0` to `1.4.1`.
+- Upgraded the `@eslint/js` dependency from `9.38.0` to `9.39.1`.
+- Upgraded the `@eslint/markdown` dependency from `7.5.0` to `7.5.1`.
+- Upgraded the `typescript-eslint` dependency from `8.46.2` to `8.46.3`.
+
 [8.1.0] - 2025-10-24
 --------------------
 
