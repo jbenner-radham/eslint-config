@@ -131,7 +131,12 @@ export default defineConfig([
       'unicorn/no-useless-length-check': 'off',
       'unicorn/prefer-set-has': 'off',
       'unicorn/prefer-set-size': 'off',
-      'unicorn/prevent-abbreviations': 'error',
+      'unicorn/prevent-abbreviations': ['error', {
+        allowList: {
+          args: true, // `arguments` is a reserved word.
+          pkg: true // `package` is a reserved word.
+        }
+      }],
       camelcase: 'error',
       eqeqeq: ['error', 'smart'],
       'no-nested-ternary': 'off',
