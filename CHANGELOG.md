@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Upgraded the `@eslint/compat` dependency from `1.4.1` to `2.0.0`.
 - Upgraded the `@stylistic/eslint-plugin` dependency from `5.5.0` to `5.6.1`.
+- Upgraded the `typescript-eslint` dependency from `8.46.3` to `8.47.0`.
 
 [10.0.0] - 2025-11-14
 ---------------------
