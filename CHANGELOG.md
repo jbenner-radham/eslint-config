@@ -6,8 +6,8 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-[Unreleased]
-------------
+[10.1.0] - 2025-11-19
+---------------------
 
 ### Changed
 
@@ -136,7 +136,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release.
 
-[Unreleased]: https://github.com/jbenner-radham/eslint-config/compare/v10.0.0...HEAD
+[10.1.0]: https://github.com/jbenner-radham/eslint-config/compare/v10.0.0...v10.1.0
 [10.0.0]: https://github.com/jbenner-radham/eslint-config/compare/v9.0.0...v10.0.0
 [9.0.0]: https://github.com/jbenner-radham/eslint-config/compare/v8.1.0...v9.0.0
 [8.1.0]: https://github.com/jbenner-radham/eslint-config/compare/v8.0.0...v8.1.0
