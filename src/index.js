@@ -137,6 +137,7 @@ export default defineConfig([
           pkg: true // `package` is a reserved word.
         }
       }],
+      'unicorn/text-encoding-identifier-case': ['error', { withDash: true }],
       camelcase: 'error',
       eqeqeq: ['error', 'smart'],
       'no-nested-ternary': 'off',
