@@ -124,6 +124,7 @@ export default defineConfig([
       'unicorn/filename-case': ['error', {
         cases: { kebabCase: true, pascalCase: true }
       }],
+      'unicorn/no-array-for-each': 'off',
       'unicorn/no-await-expression-member': 'error',
       'unicorn/no-for-loop': 'error',
       'unicorn/no-nested-ternary': 'error',
