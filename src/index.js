@@ -135,6 +135,7 @@ export default defineConfig([
       'unicorn/prevent-abbreviations': ['error', {
         allowList: {
           args: true, // `arguments` is a reserved word.
+          fn: true, // `function` is a reserved word.
           pkg: true // `package` is a reserved word.
         }
       }],
