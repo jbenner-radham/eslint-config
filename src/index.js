@@ -130,6 +130,7 @@ export default defineConfig([
       'unicorn/no-nested-ternary': 'error',
       'unicorn/no-static-only-class': 'off',
       'unicorn/no-useless-length-check': 'off',
+      'unicorn/no-useless-undefined': 'off',
       'unicorn/prefer-set-has': 'off',
       'unicorn/prefer-set-size': 'off',
       'unicorn/prevent-abbreviations': ['error', {
