@@ -26,7 +26,7 @@
     "CHANGELOG.md"
   ],
   "scripts": {
-    "np": "np --no-2fa --no-tests",
+    "np": "np --no-publish --no-tests",
     "prepare": "husky",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
